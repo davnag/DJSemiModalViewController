@@ -19,7 +19,7 @@ pod 'DJSemiModalViewController'
 
 ```swift
 
-@IBAction func actionButtonAction(_ sender: Any) {
+@IBAction func buttonAction(_ sender: Any) {
 
     let controller = DJSemiModalViewController()
     
@@ -35,17 +35,37 @@ pod 'DJSemiModalViewController'
 
 ```
 
-## Settings
+### Add views to content StackView
+
+```swift
+
+public func addArrangedSubview(view: UIView)
+
+public func addArrangedSubview(view: UIView, height: CGFloat)
+
+public func insertArrangedSubview(view: UIView, at index: Int)
+
+```
+
+### Presenting the ViewController
+
+```swift
+
+public func presentOn(presentingViewController: UIViewController, animated: Bool = true, onDismiss dismissHandler: ViewWillDismiss?)
+
+```
+
+### Settings
 
 ```swift
   
-  controller.maxWidth = 420
-  
-  controller.minHeight = 200
-  
-  controller.titleLabel.font = UIFont.systemFont(ofSize: 22, weight: UIFont.Weight.bold)
-  
-  controller.closeButton.setTitle("Done", for: .normal)
+controller.maxWidth = 420
+
+controller.minHeight = 200
+
+controller.titleLabel.font = UIFont.systemFont(ofSize: 22, weight: UIFont.Weight.bold)
+
+controller.closeButton.setTitle("Done", for: .normal)
 
 ```
 
