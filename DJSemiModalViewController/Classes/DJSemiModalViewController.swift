@@ -312,7 +312,7 @@ extension DJSemiModalViewController {
     /**
      * Insert a subview at an index of the content view
      */
-    func insertArrangedSubview(view: UIView, at index: Int) {
+    public func insertArrangedSubview(view: UIView, at index: Int) {
         stackView.insertArrangedSubview(view, at: index)
     }
 }
