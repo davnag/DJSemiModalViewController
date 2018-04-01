@@ -2,6 +2,8 @@
 
 DJSemiModalViewController is a semi modal presentation dialog that grows with it´s added content. DJSemiModalViewController works for iPhone and iPad. DJSemiModalViewController mimic the design of the default NFC popup dialog.
 
+<img src="https://raw.githubusercontent.com/davnag/DJSemiModalViewController/master/screenshots_1.png" width="320">
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
