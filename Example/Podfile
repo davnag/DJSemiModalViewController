@@ -1,0 +1,13 @@
+platform :ios, '9.0'
+
+use_frameworks!
+
+target 'DJSemiModalViewController_Example' do
+  pod 'DJSemiModalViewController', :path => '../'
+
+  target 'DJSemiModalViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

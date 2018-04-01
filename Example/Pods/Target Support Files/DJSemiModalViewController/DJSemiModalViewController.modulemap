@@ -1,0 +1,6 @@
+framework module DJSemiModalViewController {
+  umbrella header "DJSemiModalViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

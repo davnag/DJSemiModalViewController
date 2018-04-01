@@ -1,0 +1,16 @@
+PODS:
+  - DJSemiModalViewController (0.1.0)
+
+DEPENDENCIES:
+  - DJSemiModalViewController (from `../`)
+
+EXTERNAL SOURCES:
+  DJSemiModalViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DJSemiModalViewController: e98712db6c1191715d5da44c5d6dd1a14e45fccb
+
+PODFILE CHECKSUM: b20b647582d0cd63414a30efaa102edebbc56df2
+
+COCOAPODS: 1.4.0

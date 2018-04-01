@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF6A7A2E23786BE626ACAC4059EE90E /* DJSemiModalViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFAA3244F4FE972AD80FBE9B1C4182C /* DJSemiModalViewController-dummy.m */; };
+		226E430A1F2F8783E6C801A57A156BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		29445D02FF4F0CF9CC99436B8140630B /* Pods-DJSemiModalViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA74A2DF011CA00C4FB4CF457AC5433 /* Pods-DJSemiModalViewController_Example-dummy.m */; };
+		511DEAC02070FFBA002279E5 /* DJSemiModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511DEABE2070FFBA002279E5 /* DJSemiModalViewController.swift */; };
+		546D02146E52834BEE8F57EF0043DB23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5E5056947862E185B9A1AC3C08B05865 /* DJSemiModalViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17507744931E0FC79A4633A195B57023 /* DJSemiModalViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA074E023A77EFAB1F67227EEFE58169 /* Pods-DJSemiModalViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46516A93DEB4F3C3D687469772FF4BF9 /* Pods-DJSemiModalViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C481D8374DEE79998763A09ECD329D36 /* Pods-DJSemiModalViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C6CEF90A255554634E54B6ADBA3733 /* Pods-DJSemiModalViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8F71D488788914BEA3B57878D265E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E98BDA60E60FBD18B8B77BF508D86ECF /* Pods-DJSemiModalViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C33C9BD0C7D7C836D339F1CC7A4B1480 /* Pods-DJSemiModalViewController_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD968E5398C0BC56B48E3C9DFCAAB101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86FA31A0E2FC17A1236C01BA6989DFB2;
+			remoteInfo = DJSemiModalViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09908D47FD113A1EBFF9558972B80FD8 /* DJSemiModalViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJSemiModalViewController-prefix.pch"; sourceTree = "<group>"; };
+		157BD31F48B07046B444AE78BC719CFA /* Pods-DJSemiModalViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJSemiModalViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		17507744931E0FC79A4633A195B57023 /* DJSemiModalViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJSemiModalViewController-umbrella.h"; sourceTree = "<group>"; };
+		1EA74A2DF011CA00C4FB4CF457AC5433 /* Pods-DJSemiModalViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJSemiModalViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		2782007D8535EECA064CA28A54E43DBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32462CE705B82446614ED4C3E9F52608 /* Pods-DJSemiModalViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJSemiModalViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		38D30AD64618C253579DC58BA63F6342 /* Pods-DJSemiModalViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DJSemiModalViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		4451EBA7B7D7997589FCA43A1EE498EC /* Pods-DJSemiModalViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJSemiModalViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		460C6DF107AE5932E1133557575E329F /* Pods-DJSemiModalViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJSemiModalViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		46516A93DEB4F3C3D687469772FF4BF9 /* Pods-DJSemiModalViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DJSemiModalViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4DDB9F53679CE92C8C1C71E4F13D09E3 /* DJSemiModalViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJSemiModalViewController.xcconfig; sourceTree = "<group>"; };
+		4E1E4A6A0C308203CFE7A678C291B920 /* DJSemiModalViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DJSemiModalViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E83FE9C11B183E330F26F4F3EBA4377 /* Pods-DJSemiModalViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJSemiModalViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		511DEABE2070FFBA002279E5 /* DJSemiModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DJSemiModalViewController.swift; path = DJSemiModalViewController/Classes/DJSemiModalViewController.swift; sourceTree = "<group>"; };
+		5A6127A8AC004C9A5BB134B95222C3B0 /* Pods_DJSemiModalViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJSemiModalViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC4CEDA04F7352E381BDD9BB608F209 /* Pods-DJSemiModalViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJSemiModalViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6765B54591874738BDF7B2AA2AC92072 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6EFAA3244F4FE972AD80FBE9B1C4182C /* DJSemiModalViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJSemiModalViewController-dummy.m"; sourceTree = "<group>"; };
+		7AE1F92FAFA53AD9D53725ACFED7C490 /* Pods-DJSemiModalViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJSemiModalViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		7C1A692D2856D37F4DFCD97A54836A3D /* DJSemiModalViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DJSemiModalViewController.modulemap; sourceTree = "<group>"; };
+		83E2821FED02EEE9C28DC06C24EB1A46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		88E067AC14CF80BC5023F8DB977F27FA /* Pods-DJSemiModalViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJSemiModalViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AACEF53B6FD4A25B2B7FEDCEB0FF590 /* Pods-DJSemiModalViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJSemiModalViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DEDEB4DC28CCF6AC76603E6DEA0B8A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3095FF4A04D7E9F83669C9AFAD87DCE /* Pods-DJSemiModalViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJSemiModalViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB9D1381ECF7EB55BE79E8371BD1AC9C /* Pods-DJSemiModalViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DJSemiModalViewController_Example.modulemap"; sourceTree = "<group>"; };
+		C33C9BD0C7D7C836D339F1CC7A4B1480 /* Pods-DJSemiModalViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJSemiModalViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		D4854EE5F37E0A79199E35554AB7510B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D944F7C5D64841740EF9631279F0A0BD /* DJSemiModalViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DJSemiModalViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DF6EFAD7A9BF9EF888B759BC8B77A2AD /* Pods-DJSemiModalViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJSemiModalViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C6CEF90A255554634E54B6ADBA3733 /* Pods-DJSemiModalViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DJSemiModalViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		F2E4910A1C1CBD607E48F5A776A9A1D9 /* Pods-DJSemiModalViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJSemiModalViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9A807E7688155CAA24D323ABDF4564D /* Pods_DJSemiModalViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJSemiModalViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E787DC898B9B70F7EE215BBD5A8CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546D02146E52834BEE8F57EF0043DB23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7A77AF446B4AC507D2854A3AB401A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F71D488788914BEA3B57878D265E1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D337C3BD2F621468054E0F9212090BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226E430A1F2F8783E6C801A57A156BA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF6FD621951988DE535A8C9FC76B0FC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44FE45631F6F76EFD99889B3320F7826 /* Pods-DJSemiModalViewController_Example */,
+				7AC874FC5A29358186CC2EB0386C31FE /* Pods-DJSemiModalViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C3A24CDC63D1F2314D054BB1A4EABD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E1E4A6A0C308203CFE7A678C291B920 /* DJSemiModalViewController.framework */,
+				5A6127A8AC004C9A5BB134B95222C3B0 /* Pods_DJSemiModalViewController_Example.framework */,
+				F9A807E7688155CAA24D323ABDF4564D /* Pods_DJSemiModalViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44FE45631F6F76EFD99889B3320F7826 /* Pods-DJSemiModalViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8DEDEB4DC28CCF6AC76603E6DEA0B8A6 /* Info.plist */,
+				BB9D1381ECF7EB55BE79E8371BD1AC9C /* Pods-DJSemiModalViewController_Example.modulemap */,
+				A3095FF4A04D7E9F83669C9AFAD87DCE /* Pods-DJSemiModalViewController_Example-acknowledgements.markdown */,
+				8AACEF53B6FD4A25B2B7FEDCEB0FF590 /* Pods-DJSemiModalViewController_Example-acknowledgements.plist */,
+				1EA74A2DF011CA00C4FB4CF457AC5433 /* Pods-DJSemiModalViewController_Example-dummy.m */,
+				4451EBA7B7D7997589FCA43A1EE498EC /* Pods-DJSemiModalViewController_Example-frameworks.sh */,
+				7AE1F92FAFA53AD9D53725ACFED7C490 /* Pods-DJSemiModalViewController_Example-resources.sh */,
+				E2C6CEF90A255554634E54B6ADBA3733 /* Pods-DJSemiModalViewController_Example-umbrella.h */,
+				5AC4CEDA04F7352E381BDD9BB608F209 /* Pods-DJSemiModalViewController_Example.debug.xcconfig */,
+				32462CE705B82446614ED4C3E9F52608 /* Pods-DJSemiModalViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-DJSemiModalViewController_Example";
+			path = "Target Support Files/Pods-DJSemiModalViewController_Example";
+			sourceTree = "<group>";
+		};
+		5C781A97D56986748A161BF2F7E09F71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C1A692D2856D37F4DFCD97A54836A3D /* DJSemiModalViewController.modulemap */,
+				4DDB9F53679CE92C8C1C71E4F13D09E3 /* DJSemiModalViewController.xcconfig */,
+				6EFAA3244F4FE972AD80FBE9B1C4182C /* DJSemiModalViewController-dummy.m */,
+				09908D47FD113A1EBFF9558972B80FD8 /* DJSemiModalViewController-prefix.pch */,
+				17507744931E0FC79A4633A195B57023 /* DJSemiModalViewController-umbrella.h */,
+				D4854EE5F37E0A79199E35554AB7510B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DJSemiModalViewController";
+			sourceTree = "<group>";
+		};
+		73BED50DC72E7486745C589F0EF5D5FA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6396729BDD264FAFA6C6F47EA2FDE6C /* DJSemiModalViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7AC874FC5A29358186CC2EB0386C31FE /* Pods-DJSemiModalViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2782007D8535EECA064CA28A54E43DBF /* Info.plist */,
+				38D30AD64618C253579DC58BA63F6342 /* Pods-DJSemiModalViewController_Tests.modulemap */,
+				F2E4910A1C1CBD607E48F5A776A9A1D9 /* Pods-DJSemiModalViewController_Tests-acknowledgements.markdown */,
+				88E067AC14CF80BC5023F8DB977F27FA /* Pods-DJSemiModalViewController_Tests-acknowledgements.plist */,
+				C33C9BD0C7D7C836D339F1CC7A4B1480 /* Pods-DJSemiModalViewController_Tests-dummy.m */,
+				157BD31F48B07046B444AE78BC719CFA /* Pods-DJSemiModalViewController_Tests-frameworks.sh */,
+				4E83FE9C11B183E330F26F4F3EBA4377 /* Pods-DJSemiModalViewController_Tests-resources.sh */,
+				46516A93DEB4F3C3D687469772FF4BF9 /* Pods-DJSemiModalViewController_Tests-umbrella.h */,
+				DF6EFAD7A9BF9EF888B759BC8B77A2AD /* Pods-DJSemiModalViewController_Tests.debug.xcconfig */,
+				460C6DF107AE5932E1133557575E329F /* Pods-DJSemiModalViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-DJSemiModalViewController_Tests";
+			path = "Target Support Files/Pods-DJSemiModalViewController_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				73BED50DC72E7486745C589F0EF5D5FA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1C3A24CDC63D1F2314D054BB1A4EABD4 /* Products */,
+				0BF6FD621951988DE535A8C9FC76B0FC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6396729BDD264FAFA6C6F47EA2FDE6C /* DJSemiModalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				511DEABE2070FFBA002279E5 /* DJSemiModalViewController.swift */,
+				FB437CB4990B2DEA04A142D9C960D27F /* Pod */,
+				5C781A97D56986748A161BF2F7E09F71 /* Support Files */,
+			);
+			name = DJSemiModalViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FB437CB4990B2DEA04A142D9C960D27F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D944F7C5D64841740EF9631279F0A0BD /* DJSemiModalViewController.podspec */,
+				6765B54591874738BDF7B2AA2AC92072 /* LICENSE */,
+				83E2821FED02EEE9C28DC06C24EB1A46 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CD61DD214C838CE04B1229C55EA3C38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA074E023A77EFAB1F67227EEFE58169 /* Pods-DJSemiModalViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7559970D2B9CE46346FBCB0D2DFCBF55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5056947862E185B9A1AC3C08B05865 /* DJSemiModalViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796829FE9E32EFCC87ED066C6A53172D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C481D8374DEE79998763A09ECD329D36 /* Pods-DJSemiModalViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		121E292C1E94A88D9F2F74B2C66D21A7 /* Pods-DJSemiModalViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518FC67DA0DDCBC8E563A68F2BEC53B3 /* Build configuration list for PBXNativeTarget "Pods-DJSemiModalViewController_Tests" */;
+			buildPhases = (
+				AC4EEFBB0AB139CAE3F8E5F8AD100D67 /* Sources */,
+				71E787DC898B9B70F7EE215BBD5A8CC9 /* Frameworks */,
+				6CD61DD214C838CE04B1229C55EA3C38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DJSemiModalViewController_Tests";
+			productName = "Pods-DJSemiModalViewController_Tests";
+			productReference = F9A807E7688155CAA24D323ABDF4564D /* Pods_DJSemiModalViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86FA31A0E2FC17A1236C01BA6989DFB2 /* DJSemiModalViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642673133215AA3C08E86B37FCEE35A8 /* Build configuration list for PBXNativeTarget "DJSemiModalViewController" */;
+			buildPhases = (
+				1E25D8B18BDC08361CA275DFE3B5BC34 /* Sources */,
+				BB7A77AF446B4AC507D2854A3AB401A8 /* Frameworks */,
+				7559970D2B9CE46346FBCB0D2DFCBF55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJSemiModalViewController;
+			productName = DJSemiModalViewController;
+			productReference = 4E1E4A6A0C308203CFE7A678C291B920 /* DJSemiModalViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB643433A69370B0363A0B2326E9D905 /* Pods-DJSemiModalViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C742D0951EC763C31F5FA674C6834F13 /* Build configuration list for PBXNativeTarget "Pods-DJSemiModalViewController_Example" */;
+			buildPhases = (
+				CC6639A579976F1877F1C8CC833C9BC9 /* Sources */,
+				D337C3BD2F621468054E0F9212090BA8 /* Frameworks */,
+				796829FE9E32EFCC87ED066C6A53172D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E99C03E65BE6BD7A73FE3439A7CFA6D /* PBXTargetDependency */,
+			);
+			name = "Pods-DJSemiModalViewController_Example";
+			productName = "Pods-DJSemiModalViewController_Example";
+			productReference = 5A6127A8AC004C9A5BB134B95222C3B0 /* Pods_DJSemiModalViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1C3A24CDC63D1F2314D054BB1A4EABD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86FA31A0E2FC17A1236C01BA6989DFB2 /* DJSemiModalViewController */,
+				CB643433A69370B0363A0B2326E9D905 /* Pods-DJSemiModalViewController_Example */,
+				121E292C1E94A88D9F2F74B2C66D21A7 /* Pods-DJSemiModalViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E25D8B18BDC08361CA275DFE3B5BC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF6A7A2E23786BE626ACAC4059EE90E /* DJSemiModalViewController-dummy.m in Sources */,
+				511DEAC02070FFBA002279E5 /* DJSemiModalViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4EEFBB0AB139CAE3F8E5F8AD100D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98BDA60E60FBD18B8B77BF508D86ECF /* Pods-DJSemiModalViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6639A579976F1877F1C8CC833C9BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29445D02FF4F0CF9CC99436B8140630B /* Pods-DJSemiModalViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E99C03E65BE6BD7A73FE3439A7CFA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DJSemiModalViewController;
+			target = 86FA31A0E2FC17A1236C01BA6989DFB2 /* DJSemiModalViewController */;
+			targetProxy = CD968E5398C0BC56B48E3C9DFCAAB101 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F7C458928F8EC966E9A82FA45A1E75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460C6DF107AE5932E1133557575E329F /* Pods-DJSemiModalViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DJSemiModalViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DJSemiModalViewController_Tests/Pods-DJSemiModalViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DJSemiModalViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		285D2A7D70F7779B75EE332630000A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32462CE705B82446614ED4C3E9F52608 /* Pods-DJSemiModalViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DJSemiModalViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DJSemiModalViewController_Example/Pods-DJSemiModalViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DJSemiModalViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		54E2F669D13DA03C9606E927D0FF9BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6EFAD7A9BF9EF888B759BC8B77A2AD /* Pods-DJSemiModalViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DJSemiModalViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DJSemiModalViewController_Tests/Pods-DJSemiModalViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DJSemiModalViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BCC9F42ACF56E1E9458C2E269EF2B1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDB9F53679CE92C8C1C71E4F13D09E3 /* DJSemiModalViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DJSemiModalViewController/DJSemiModalViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DJSemiModalViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DJSemiModalViewController/DJSemiModalViewController.modulemap";
+				PRODUCT_NAME = DJSemiModalViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCFED8C2B1650A9F35815682B1ED66CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDB9F53679CE92C8C1C71E4F13D09E3 /* DJSemiModalViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DJSemiModalViewController/DJSemiModalViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DJSemiModalViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DJSemiModalViewController/DJSemiModalViewController.modulemap";
+				PRODUCT_NAME = DJSemiModalViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D25E1208B0CAE1434A5F62BDFEA1736B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC4CEDA04F7352E381BDD9BB608F209 /* Pods-DJSemiModalViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DJSemiModalViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DJSemiModalViewController_Example/Pods-DJSemiModalViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DJSemiModalViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518FC67DA0DDCBC8E563A68F2BEC53B3 /* Build configuration list for PBXNativeTarget "Pods-DJSemiModalViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E2F669D13DA03C9606E927D0FF9BBD /* Debug */,
+				0F7C458928F8EC966E9A82FA45A1E75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642673133215AA3C08E86B37FCEE35A8 /* Build configuration list for PBXNativeTarget "DJSemiModalViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFED8C2B1650A9F35815682B1ED66CC /* Debug */,
+				BCC9F42ACF56E1E9458C2E269EF2B1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C742D0951EC763C31F5FA674C6834F13 /* Build configuration list for PBXNativeTarget "Pods-DJSemiModalViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25E1208B0CAE1434A5F62BDFEA1736B /* Debug */,
+				285D2A7D70F7779B75EE332630000A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
