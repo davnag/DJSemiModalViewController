@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class DJSemiModalViewController: UIViewController {
+open class DJSemiModalViewController: UIViewController {
 
     //    MARK: Private Properties
 
@@ -73,6 +73,11 @@ public class DJSemiModalViewController: UIViewController {
     //    MARK: Public Properties
 
     public typealias ViewWillDismiss = () -> Void
+
+    /**
+     * Adjust content height automatically
+     */
+    public var automaticallyAdjustsContentHeight: Bool = false
 
     /**
      * The title label for the view
@@ -174,7 +179,7 @@ public class DJSemiModalViewController: UIViewController {
             scrollView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -24),
             scrollView.bottomAnchor.constraint(equalTo: closeButton.topAnchor, constant: -24),
             scrollViewHeightLayoutConstraint
-        ])
+            ])
     }
 
     private func setupStackView() {
@@ -236,11 +241,11 @@ public class DJSemiModalViewController: UIViewController {
         setupGestureRecognizer()
     }
 
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
     }
 
-    public override func viewDidLayoutSubviews() {
+    open override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
         updateScrollViewHeightConstraint()
@@ -261,9 +266,16 @@ extension DJSemiModalViewController {
         dismiss(animated: true, completion: nil)
     }
 
-    private func updateScrollViewHeightConstraint() {
-        scrollViewHeightLayoutConstraint.constant = stackView.frame.height
+    public func updateScrollViewHeightConstraint() {
+        let size = stackView.systemLayoutSizeFitting(UILayoutFittingCompressedSize)
+        scrollViewHeightLayoutConstraint.constant = automaticallyAdjustsContentHeight ? size.height : stackView.frame.height
         scrollViewHeightLayoutConstraint.isActive = scrollViewHeightLayoutConstraint.constant > 0.0
+
+        view.setNeedsUpdateConstraints()
+
+        UIView.animate(withDuration: 0.25, animations: {
+            self.view.layoutIfNeeded()
+        })
     }
 
     private func flashScrollViewScrollIndicatorsIfNeeded() {
@@ -283,7 +295,7 @@ extension DJSemiModalViewController {
     /**
      * Set the title and title label text
      */
-    override public var title: String? {
+    override open var title: String? {
         didSet {
             self.titleLabel.text = title
         }
@@ -304,7 +316,7 @@ extension DJSemiModalViewController {
 
         NSLayoutConstraint.activate([
             view.heightAnchor.constraint(equalToConstant: height)
-        ])
+            ])
 
         addArrangedSubview(view: view)
     }
@@ -431,7 +443,7 @@ extension DJSemiModalViewController {
 
     //  MARK: View Transition
 
-    public override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+    open override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
         contentViewMaximumHeightLayoutConstraint.constant = size.height - 20
 
