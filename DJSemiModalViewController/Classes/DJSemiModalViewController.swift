@@ -77,7 +77,7 @@ open class DJSemiModalViewController: UIViewController {
     /**
      * Adjust content height automatically
      */
-    public var automaticallyAdjustsContentHeight: Bool = false
+    public var automaticallyAdjustsContentHeight: Bool = true
 
     /**
      * The title label for the view
@@ -270,6 +270,10 @@ extension DJSemiModalViewController {
         let size = stackView.systemLayoutSizeFitting(UILayoutFittingCompressedSize)
         scrollViewHeightLayoutConstraint.constant = automaticallyAdjustsContentHeight ? size.height : stackView.frame.height
         scrollViewHeightLayoutConstraint.isActive = scrollViewHeightLayoutConstraint.constant > 0.0
+
+
+        contentView.setNeedsUpdateConstraints()
+        contentView.layoutIfNeeded()
 
         view.setNeedsUpdateConstraints()
 
