@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DJSemiModalViewController'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Simple semi modal presentation dialog with stacked content.'
 
   s.description      = 'DJSemiModalViewController is a semi modal presentation dialog that grows with it´s added content. DJSemiModalViewController works for iPhone and iPad. The content is added to a UIStackView that is inside of an UIScrollView that adds scroll if needed. DJSemiModalViewController mimic the design of the standard NFC dialog on iPhone.'
@@ -23,11 +23,5 @@ Pod::Spec.new do |s|
   s.swift_version = '4.0'
 
   s.source_files = 'DJSemiModalViewController/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'DJSemiModalViewController' => ['DJSemiModalViewController/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit'
 end
