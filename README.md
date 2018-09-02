@@ -60,6 +60,7 @@ public func presentOn(presentingViewController: UIViewController, animated: Bool
 ### Settings
 
 ```swift
+controller.automaticallyAdjustsContentHeight = true
   
 controller.maxWidth = 420
 
