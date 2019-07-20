@@ -332,7 +332,7 @@ extension DJSemiModalViewController {
 
     open override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
         viewWillDismissHandler?()
-        dismiss(animated: flag)
+        super.dismiss(animated: flag, completion: completion)
     }
 }
 
