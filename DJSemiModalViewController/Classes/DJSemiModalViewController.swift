@@ -14,7 +14,7 @@ open class DJSemiModalViewController: UIViewController {
 
     private lazy var backgroundCoverView: UIView = {
         let view = UIView()
-        view.backgroundColor = UIColor.clear
+        view.backgroundColor = .clear
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -149,7 +149,7 @@ open class DJSemiModalViewController: UIViewController {
             contentViewMaximumHeightLayoutConstraint,
             contentViewMaximumWidthLayoutConstraint,
             contentViewMinimumHeightLayoutConstraint
-            ])
+        ])
     }
 
     private func setupTitleLabel() {
@@ -164,7 +164,7 @@ open class DJSemiModalViewController: UIViewController {
             titleLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: margin * 2),
             titleLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -margin * 2),
             titleLabel.heightAnchor.constraint(equalToConstant: titleLabelHeight)
-            ])
+        ])
     }
 
     private func setupScrollView() {
@@ -179,7 +179,7 @@ open class DJSemiModalViewController: UIViewController {
             scrollView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -24),
             scrollView.bottomAnchor.constraint(equalTo: closeButton.topAnchor, constant: -24),
             scrollViewHeightLayoutConstraint
-            ])
+        ])
     }
 
     private func setupStackView() {
@@ -192,7 +192,7 @@ open class DJSemiModalViewController: UIViewController {
             stackView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor, constant: 0),
             stackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: 0),
             stackView.widthAnchor.constraint(equalTo: scrollView.widthAnchor)
-            ])
+        ])
     }
 
     private func setupCloseButton() {
@@ -204,7 +204,7 @@ open class DJSemiModalViewController: UIViewController {
             closeButton.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20),
             closeButton.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -20),
             closeButton.heightAnchor.constraint(equalToConstant: 44)
-            ])
+        ])
     }
 
     private func setupGestureRecognizer() {
@@ -258,12 +258,7 @@ extension DJSemiModalViewController {
     //    MARK: - Private
 
     @IBAction private func closeButtonAction(_ sender: Any) {
-        dismissAction()
-    }
-
-    private func dismissAction() {
-        viewWillDismissHandler?()
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true)
     }
 
     public func updateScrollViewHeightConstraint() {
@@ -295,13 +290,12 @@ extension DJSemiModalViewController {
 
     //    MARK: Public
 
-
     /**
      * Set the title and title label text
      */
     override open var title: String? {
         didSet {
-            self.titleLabel.text = title
+            titleLabel.text = title
         }
     }
 
@@ -320,7 +314,7 @@ extension DJSemiModalViewController {
 
         NSLayoutConstraint.activate([
             view.heightAnchor.constraint(equalToConstant: height)
-            ])
+        ])
 
         addArrangedSubview(view: view)
     }
@@ -330,6 +324,15 @@ extension DJSemiModalViewController {
      */
     public func insertArrangedSubview(view: UIView, at index: Int) {
         stackView.insertArrangedSubview(view, at: index)
+    }
+
+    /**
+     * Dismiss DJSemiModalViewController
+     */
+
+    open override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
+        viewWillDismissHandler?()
+        dismiss(animated: flag)
     }
 }
 
@@ -431,7 +434,7 @@ extension DJSemiModalViewController {
             let velocity = gestureRecognizer.velocity(in: view)
 
             if velocity.y > 2_000 {
-                dismissAction()
+                dismiss(animated: true)
             } else {
                 let springVelocity = -1.0 * velocity.y / distance
 
